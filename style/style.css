@@ -106,4 +106,42 @@ table {
 input {
   -webkit-appearance: none;
   border-radius: 0;
+}
+
+header {
+  background-color: rgb(0, 162, 255);
+  width: 100vw;
+  height: 20vh;
+}
+header .icons-menu {
+  background-color: red;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .icons-menu ul {
+  display: flex;
+}
+header .nav-menu {
+  background-color: yellow;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-menu li > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #212121;
+}
+header .nav-menu li > a:hover {
+  color: #1891ff;
+}
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
